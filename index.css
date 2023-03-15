@@ -1,0 +1,36 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 50%;
+}
+.heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.imgContainer {
+  width: 80%;
+  max-width: 500px;
+}
+@media (min-width: 768px) {
+  .imgContainer {
+    max-width: 500px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+}
